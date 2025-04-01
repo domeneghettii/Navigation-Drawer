@@ -7,7 +7,7 @@ export default function DrawerScreen() {
             <Text style={styles.title}>Navegação da Página Drawer</Text>
 
             <Text style={styles.description}>
-                Use o menuzinho lateral para poder acessar a outra página!
+                Este é um exemplo de uma tela de navegação usando o Drawer Navigator. Você pode navegar entre diferentes telas usando o menu lateral.
             </Text>
         </View>
     );
@@ -22,10 +22,11 @@ const styles = StyleSheet.create({
         padding: 20,
     },
     title: {
+        textAlign: "center",
         fontSize: 30,
         fontWeight: "Semi Bold",
         color: "lightpink",        
-        marginBottom: 12,
+        marginBottom: 18,
     },
     description: {
         fontSize: 16,
